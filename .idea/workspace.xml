@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4947e984-d1a4-4b90-b78b-7c3eb747f9b6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fYkm3PuhRIPgzYKF2ao7qKDPKa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SignUpSystem.py" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="Checking_Email" type="PythonConfigurationType" factoryName="Python">
+      <module name="Registering_System_Demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Owner\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ForgotPasswordSystem.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Luan_Sign_Up" type="PythonConfigurationType" factoryName="Python">
+      <module name="Registering_System_Demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Owner\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/Sign-Up_Finish_draft.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MarketPage" type="PythonConfigurationType" factoryName="Python">
+      <module name="Registering_System_Demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Owner\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MarketPage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SignInSystem" type="PythonConfigurationType" factoryName="Python">
+      <module name="Registering_System_Demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Owner\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LogInSystem.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SignUpSystem" type="PythonConfigurationType" factoryName="Python">
+      <module name="Registering_System_Demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Owner\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SignUpSystem.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Testing_Local_Database" type="PythonConfigurationType" factoryName="Python">
+      <module name="Registering_System_Demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Owner\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Local_Database_System.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python">
+      <module name="Registering_System_Demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Owner\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Checking_Email" />
+      <item itemvalue="Python.Luan_Sign_Up" />
+      <item itemvalue="Python.MarketPage" />
+      <item itemvalue="Python.SignInSystem" />
+      <item itemvalue="Python.SignUpSystem" />
+      <item itemvalue="Python.Testing_Local_Database" />
+      <item itemvalue="Python.main" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4947e984-d1a4-4b90-b78b-7c3eb747f9b6" name="Default Changelist" comment="" />
+      <created>1596402568827</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596402568827</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="692" y="278" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597170816655">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="463" y="274" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040/3840.-371.1080.1880@0.0.1920.1040" timestamp="1596510688965" />
+    <state x="692" y="278" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.5.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1597170816655" />
+    <state x="696" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596835455386">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="696" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.5.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1596835455386" />
+    <state x="789" y="374" key="FileChooserDialogImpl" timestamp="1597170814823">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="789" y="374" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040/3840.-371.1080.1880@0.0.1920.1040" timestamp="1596510174093" />
+    <state x="789" y="374" key="FileChooserDialogImpl/0.0.1920.1040/1920.5.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1597170814823" />
+    <state width="1899" height="269" key="GridCell.Tab.0.bottom" timestamp="1597192636853">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1914" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040/3840.-371.1080.1880@0.0.1920.1040" timestamp="1596510734751" />
+    <state width="1899" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@0.0.1920.1040" timestamp="1596638059025" />
+    <state width="1899" height="269" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.5.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1597192636853" />
+    <state width="1899" height="130" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.5.1920.1040/0.-1080.1920.1040@1920.5.1920.1040" timestamp="1597008139313" />
+    <state width="1899" height="269" key="GridCell.Tab.0.center" timestamp="1597192636853">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1914" height="287" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040/3840.-371.1080.1880@0.0.1920.1040" timestamp="1596510734750" />
+    <state width="1899" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@0.0.1920.1040" timestamp="1596638059024" />
+    <state width="1899" height="269" key="GridCell.Tab.0.center/0.0.1920.1040/1920.5.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1597192636853" />
+    <state width="1899" height="130" key="GridCell.Tab.0.center/0.0.1920.1040/1920.5.1920.1040/0.-1080.1920.1040@1920.5.1920.1040" timestamp="1597008139313" />
+    <state width="1899" height="269" key="GridCell.Tab.0.left" timestamp="1597192636853">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1914" height="287" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040/3840.-371.1080.1880@0.0.1920.1040" timestamp="1596510734750" />
+    <state width="1899" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@0.0.1920.1040" timestamp="1596638059024" />
+    <state width="1899" height="269" key="GridCell.Tab.0.left/0.0.1920.1040/1920.5.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1597192636853" />
+    <state width="1899" height="130" key="GridCell.Tab.0.left/0.0.1920.1040/1920.5.1920.1040/0.-1080.1920.1040@1920.5.1920.1040" timestamp="1597008139312" />
+    <state width="1899" height="269" key="GridCell.Tab.0.right" timestamp="1597192636853">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1914" height="287" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040/3840.-371.1080.1880@0.0.1920.1040" timestamp="1596510734750" />
+    <state width="1899" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@0.0.1920.1040" timestamp="1596638059025" />
+    <state width="1899" height="269" key="GridCell.Tab.0.right/0.0.1920.1040/1920.5.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1597192636853" />
+    <state width="1899" height="130" key="GridCell.Tab.0.right/0.0.1920.1040/1920.5.1920.1040/0.-1080.1920.1040@1920.5.1920.1040" timestamp="1597008139313" />
+    <state width="1882" height="344" key="GridCell.Tab.1.bottom" timestamp="1597180754391">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040/3840.-371.1080.1880@0.0.1920.1040" timestamp="1596421889821" />
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@0.0.1920.1040" timestamp="1596638059025" />
+    <state width="1882" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.5.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1597180754391" />
+    <state width="1882" height="344" key="GridCell.Tab.1.center" timestamp="1597180754391">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040/3840.-371.1080.1880@0.0.1920.1040" timestamp="1596421889821" />
+    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@0.0.1920.1040" timestamp="1596638059025" />
+    <state width="1882" height="344" key="GridCell.Tab.1.center/0.0.1920.1040/1920.5.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1597180754391" />
+    <state width="1882" height="344" key="GridCell.Tab.1.left" timestamp="1597180754391">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040/3840.-371.1080.1880@0.0.1920.1040" timestamp="1596421889821" />
+    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@0.0.1920.1040" timestamp="1596638059025" />
+    <state width="1882" height="344" key="GridCell.Tab.1.left/0.0.1920.1040/1920.5.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1597180754391" />
+    <state width="1882" height="344" key="GridCell.Tab.1.right" timestamp="1597180754391">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040/3840.-371.1080.1880@0.0.1920.1040" timestamp="1596421889821" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@0.0.1920.1040" timestamp="1596638059025" />
+    <state width="1882" height="344" key="GridCell.Tab.1.right/0.0.1920.1040/1920.5.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1597180754391" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1596597695430">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@0.0.1920.1040" timestamp="1596597695430" />
+    <state x="656" y="344" width="607" height="341" key="com.intellij.ide.util.TipDialog" timestamp="1597191067586">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040/3840.-371.1080.1880@0.0.1920.1040" timestamp="1596424095481" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@0.0.1920.1040" timestamp="1596597696563" />
+    <state x="656" y="344" width="607" height="341" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.5.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1597191067586" />
+    <state x="1920" y="5" width="1654" height="899" maximized="true" key="dock-window-1" timestamp="1597177231901">
+      <screen x="1920" y="5" width="1920" height="1040" />
+    </state>
+    <state x="1920" y="5" width="1654" height="899" maximized="true" key="dock-window-1/0.0.1920.1040/1920.5.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1597177231901" />
+    <state x="2177" y="5" width="1654" height="899" maximized="true" key="dock-window-2" timestamp="1597169972511">
+      <screen x="1920" y="5" width="1920" height="1040" />
+    </state>
+    <state x="2177" y="5" width="1654" height="899" maximized="true" key="dock-window-2/0.0.1920.1040/1920.5.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1597169972511" />
+    <state x="2870" y="356" width="976" height="1056" key="dock-window-2/0.0.1920.1040/1920.5.1920.1040/0.-1080.1920.1040@1920.5.1920.1040" timestamp="1597006906909" />
+    <state x="1920" y="25" width="1654" height="899" maximized="true" key="dock-window-3" timestamp="1597173449999">
+      <screen x="1920" y="5" width="1920" height="1040" />
+    </state>
+    <state x="1920" y="25" width="1654" height="899" maximized="true" key="dock-window-3/0.0.1920.1040/1920.5.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1597173449999" />
+    <state x="1920" y="225" width="1693" height="907" maximized="true" key="dock-window-4" timestamp="1597179178601">
+      <screen x="1920" y="5" width="1920" height="1040" />
+    </state>
+    <state x="1920" y="225" width="1693" height="907" maximized="true" key="dock-window-4/0.0.1920.1040/1920.5.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1597179178601" />
+    <state x="701" y="163" key="refactoring.ChangeSignatureDialog" timestamp="1597177651136">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="701" y="163" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/1920.5.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1597177651136" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1597099292334">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@0.0.1920.1040" timestamp="1596604684459" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.5.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1597099292334" />
+    <state x="2543" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.5.1920.1040/0.-1080.1920.1040@1920.5.1920.1040" timestamp="1597007690376" />
+  </component>
+</project>

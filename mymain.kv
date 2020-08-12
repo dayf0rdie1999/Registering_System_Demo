@@ -1,0 +1,140 @@
+#: include forgotPassword/forgotpassword.kv
+#: include logIn/login.kv
+#: include signUp/signup.kv
+#: import NoTransition kivy.uix.screenmanager.NoTransition
+#: include market/marketpage.kv
+#: include resetPassword/resetpassword.kv
+
+<RaisedButton>:
+    background_color: (0,0,0,0)
+    background_normal: ''
+    back_color: (1, 1, 1, 1.0)
+    normal_color: (0.117, 0.565, 1, 1.0)
+    size_hint: 1, None
+    size: "0dp", "50dp"
+    border_radius: [18]
+    canvas.before:
+        Color:
+            rgba: self.normal_color if self.state == "normal" else self.back_color
+        RoundedRectangle:
+            pos: self.pos
+            size: self.size
+            radius: self.border_radius
+
+ScreenManagement:
+    id: manager
+    transition: NoTransition()
+    mainScreen: mainScreen
+    secondScreen: secondScreen
+    thirdScreen: thirdScreen
+    fourthScreen: fourthScreen
+    fifthScreen: fifthScreen
+    MainScreen:
+        id: mainScreen
+        name: 'main'
+        manager: manager
+        secondScreen: secondScreen
+        thirdScreen: thirdScreen
+        fourthScreen: fourthScreen
+        fifthScreen: fifthScreen
+    SecondScreen:
+        id: secondScreen
+        name: 'second'
+        manager: manager
+        fifthScreen: fifthScreen
+        mainScreen: mainScreen
+        thirdScreen: thirdScreen
+        fourthScreen: fourthScreen
+    ThirdScreen:
+        id: thirdScreen
+        name: 'third'
+        manager: manager
+        mainScreen: mainScreen
+        fifthScreen: fifthScreen
+        secondScreen: secondScreen
+        fourthScreen: fourthScreen
+    FourthScreen:
+        id: fourthScreen
+        name: 'fourth'
+        manager: manager
+        mainScreen: mainScreen
+        fifthScreen: fifthScreen
+        secondScreen: secondScreen
+        thirdScreen: thirdScreen
+    FifthScreen:
+        id: fifthScreen
+        name: 'fifth'
+        manager: manager
+        mainScreen: mainScreen
+        fifthScreen: fifthScreen
+        secondScreen: secondScreen
+        fourthScreen: fourthScreen
+        thirdScreen: thirdScreen
+
+
+<MainScreen>:
+    id: mainScreen
+    logInDemo: logInDemo
+    LogInDemo:
+        id: logInDemo
+        mainScreen: mainScreen
+        MDBoxLayout:
+            adaptive_height: True
+            orientation: "vertical"
+            pos_hint: {"x": 0, "y": 0}
+            padding: [dp(10), dp(10)]
+            spacing: 10
+
+            RaisedButton:
+                text: "Forgot password"
+                back_color: (1, 1, 1, 1.0)
+                normal_color: (0.117, 0.565, 1, 1.0)
+                on_press: app.root.mainScreen.logInDemo.stop_Hiding_Password_Clock_to_switch_to_forgotPasswordDemo()
+
+            RaisedButton:
+                text: "Sign Up"
+                back_color: (1, 1, 1, 1.0)
+                normal_color: (0.117, 0.565, 1, 1.0)
+                on_press: app.root.secondScreen.signUpDemo.Hiding_Password_SignUpDemo()
+
+
+
+<SecondScreen>:
+    id: secondScreen
+    signUpDemo: signUpDemo
+    SignUpDemo:
+        id: signUpDemo
+        secondScreen: secondScreen
+        MDBoxLayout:
+            padding: dp(10)
+            RaisedButton:
+                text: "Cancel"
+                on_press: root.signUpDemo.return_to_main()
+
+<ThirdScreen>:
+    id: thirdScreen
+    forgotPasswordDemo: forgotPasswordDemo
+    ForgotPasswordDemo:
+        thirdScreen: thirdScreen
+        id: forgotPasswordDemo
+        MDBoxLayout:
+            padding: dp(10)
+            RaisedButton:
+                text: "Cancel"
+                on_press: root.forgotPasswordDemo.return_to_main()
+<FourthScreen>:
+    id: fourthScreen
+    marketPageDemo: marketPageDemo
+    MarketPageDemo:
+        fourthScreen: fourthScreen
+        id: marketPageDemo
+
+<FifthScreen>:
+    id: fifthScreen
+    resetPasswordDemo: resetPasswordDemo
+    ResetPasswordDemo:
+        fifthScreen: fifthScreen
+        id: resetPasswordDemo
+
+
+

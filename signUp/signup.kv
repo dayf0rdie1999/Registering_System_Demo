@@ -1,0 +1,109 @@
+#: import BoxLayout kivy.uix.boxlayout
+
+<DialogContent>:
+    tf_level: tf_level.__self__
+    l_level: l_level.__self__
+    orientation: "vertical"
+    spacing: "12dp"
+    size_hint_y:None
+    height: "120dp"
+
+    MDLabel:
+        id: l_level
+        text: "Verification code has sent to your email"
+        font_style: "H6"
+
+    MDTextField:
+        id: tf_level
+        hint_text: "Enter Verification Code"
+        helper_text: "Incorrect Validation Code"
+        helper_text_mode: "on_error"
+
+<RaisedButton>:
+    background_color: (0,0,0,0)
+    background_normal: ''
+    back_color: (1, 1, 1, 1.0)
+    normal_color: (0.117, 0.565, 1, 1.0)
+    size_hint: 1, None
+    size: "0dp", "30dp"
+    border_radius: [18]
+    canvas.before:
+        Color:
+            rgba: self.normal_color if self.state == "normal" else self.back_color
+        RoundedRectangle:
+            pos: self.pos
+            size: self.size
+            radius: self.border_radius
+
+<SignUpDemo>:
+    fullname: fullname.__self__
+    username: username.__self__
+    email: email.__self__
+    password: password.__self__
+    confirmPassword: confirmPassword.__self__
+    MDBoxLayout:
+        adaptive_height: True
+        pos_hint: {"x": 0, "y": 0.94}
+        MDToolbar:
+            title: "Sign Up"
+
+    MDBoxLayout:
+        orientation: "vertical"
+        adaptive_height: True
+        pos_hint:{"x": 0, "y": 0.30}
+        padding: [dp(15),0]
+        spacing: dp(15)
+
+        MDTextField:
+            id: fullname
+            hint_text: "Fullname"
+            required: True
+            helper_text_mode: "on_error"
+            helper_text: "Enter text"
+
+        MDTextField:
+            id: username
+            hint_text: "Username"
+            required: True
+            helper_text_mode: "on_error"
+            helper_text: "Enter text"
+
+        MDTextField:
+            id: email
+            hint_text: "Email"
+            required: True
+            helper_text_mode: "on_error"
+            helper_text: "Enter text"
+
+
+        MDTextField:
+            id: password
+            hint_text: "Password"
+            required: True
+            helper_text_mode: "on_error"
+            helper_text: "Enter text"
+
+        MDTextField:
+            id: confirmPassword
+            hint_text: "Confirm Password"
+            required: True
+            helper_text_mode: "on_error"
+            helper_text: "Enter text"
+
+
+    MDBoxLayout:
+        orientation: "vertical"
+        adaptive_height: True
+        pos_hint:{"x": 0, "y": 0.2}
+        spacing: dp(15)
+        padding: dp(10)
+
+        RaisedButton:
+            text: "Submit"
+            on_release: root.sign_up()
+
+
+
+
+
+

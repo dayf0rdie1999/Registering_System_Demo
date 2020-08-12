@@ -1,0 +1,102 @@
+
+<RaisedButton>:
+    background_color: (0,0,0,0)
+    background_normal: ''
+    back_color: (1, 1, 1, 1.0)
+    normal_color: (0.117, 0.565, 1, 1.0)
+    size_hint: 1, None
+    size: "0dp", "30dp"
+    border_radius: [18]
+    canvas.before:
+        Color:
+            rgba: self.normal_color if self.state == "normal" else self.back_color
+        RoundedRectangle:
+            pos: self.pos
+            size: self.size
+            radius: self.border_radius
+<LogInDemo>:
+    remember_check: remember_check.__self__
+    username: username.__self__
+    password: password.__self__
+    MDBoxLayout:
+        adaptive_height: True
+        pos_hint: {"x": 0, "y": 0.94}
+        MDToolbar:
+            title: "Sign In"
+
+    MDIconButton:
+        pos_hint: {"center_x": .5, "center_y": .75}
+        icon: "android"
+        user_font_size: "128dp"
+
+    MDBoxLayout:
+        pos_hint: {"x": 0, "y": 0.45}
+        orientation: "vertical"
+        adaptive_height: True
+        spacing: "5dp"
+        padding: [dp(10),0]
+
+        MDTextField:
+            id: username
+            hint_text: "Username"
+            helper_text_mode: "on_error"
+            helper_text: "Missing text"
+
+
+        MDTextField:
+            id: password
+            hint_text: "Password"
+            helper_text_mode: "on_error"
+            helper_text: "Missing text"
+            focus: False
+
+    MDBoxLayout:
+        pos_hint: {"x": 0, "y": 0.4}
+        adaptive_height: True
+        orientation: "horizontal"
+        spacing: "10dp"
+
+        MDCheckbox:
+            id: remember_check
+            size_hint: None, None
+            size: "48dp", "48dp"
+
+        MDLabel:
+            text: "Remember me"
+            font: "Body2"
+
+    MDBoxLayout:
+        orientation: "vertical"
+        adaptive_height: True
+        spacing: "15dp"
+        pos_hint: {"x": 0, "y": 0.30}
+        padding: [dp(10),dp(10)]
+
+
+        RaisedButton:
+            back_color: (1, 1, 1, 1.0)
+            normal_color: (0.117, 0.565, 1, 1.0)
+            text: "Sign in"
+            on_press:
+                root.user_sign_in()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

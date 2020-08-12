@@ -1,0 +1,23 @@
+Version 1.1.0
+
+New:
+Luan Security System is added for user's password,email,username
+
+Updated:
+Feedback system for user is 99% working.
+All files are organized
+
+Goal Version 1.1.1:
+- Allow user to take picture to store in the database
+- Personal User Information Page added: allow change password, change username and email, 2 verification-factor integration for manual sign in
+- Possibly: Sign in with Google APIs
+
+Deployed Testing:
+
+Window: Successfully
+
+Android:Successfully
+
+ios:Few bugs such as wrong variable name, lacking few lines to check the whether the file is existed or not creating crashes, button size all went wrong in iOS and android. Managed to fix all of them
+
+OSX: Successfully

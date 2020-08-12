@@ -1,0 +1,65 @@
+
+<ContentNavigationDrawer>:
+    avatar: avatar.__self__
+    username: username.__self__
+    email: email.__self__
+    orientation: "vertical"
+    padding: "8dp"
+    spacing: "8dp"
+
+    AnchorLayout:
+        anchor_x: "left"
+        size_hint_y: None
+        height: avatar.height
+
+        Image:
+            id: avatar
+            size_hint: None, None
+            size: "128dp","128dp"
+            source: "image/images.jpg"
+
+    MDLabel:
+        id: username
+        text: "Testing KivyMD"
+        font_style: "Button"
+        size_hint_y: None
+        height: self.texture_size[1]
+
+    MDLabel:
+        id: email
+        text: "Testing@gmail.com"
+        font_style: "Caption"
+        size_hint_y: None
+        height: self.texture_size[1]
+
+    ScrollView:
+        OneLineListItem:
+            text: "Log Out"
+            on_press:
+                root.nav_drawer.set_state("close")
+                root.Deleting_Temporary_Database()
+
+
+
+<MarketPageDemo>:
+    id: marketPageDemo
+    NavigationLayout:
+        ScreenManager:
+            Screen:
+                BoxLayout:
+                    orientation: 'vertical'
+
+                    MDToolbar:
+                        title:"Navigation Drawer"
+                        elevation: 10
+                        left_action_items: [['menu', lambda x: nav_drawer.toggle_nav_drawer()]]
+
+                    BoxLayout:
+
+
+    MDNavigationDrawer:
+        id: nav_drawer
+
+        ContentNavigationDrawer:
+            nav_drawer: nav_drawer
+            marketPageDemo: marketPageDemo
